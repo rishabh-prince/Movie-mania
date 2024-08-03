@@ -1,0 +1,32 @@
+.seat-ui{
+    width:65%;
+    margin:20px;
+    text-align: center;
+}
+.seats{
+    width:60%;
+    background-color: rgb(178, 213, 214);
+    display: flex;
+    flex-wrap: wrap;
+    gap:4px;
+    margin-inline: auto;
+    padding:20px;
+    margin-top: 20px;
+}
+.seat{
+    width:15px;
+    height:15px;
+    border:1px solid black;
+    border-radius: 2px; 
+}
+.ticket-btn{
+    width:100px;
+    height:30px;
+    margin-block: 20px;
+    background-color: black;
+    color:white;
+    padding:5px;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+}

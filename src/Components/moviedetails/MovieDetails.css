@@ -1,0 +1,21 @@
+.movie-details{
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.movie-description{
+    width:65%;
+    text-align: center;
+    margin:20px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    align-items: center;
+}
+.movie-description img{
+    width:80%;
+    height:500px;
+    margin-block: 10px;
+}
