@@ -18,7 +18,7 @@ import { useState } from "react";
 import { auth } from "./Components/firebase";
 import Movies from "./Components/movies/movies";
 import MovieDetails from "./Components/moviedetails/MovieDetails";
-
+import Payment from "./Components/Payment/Payment";
 
 function App() {
   const [user, setUser] = useState();
@@ -41,7 +41,9 @@ function App() {
 
           <Route path="/movies" element={<Movies />} />
           <Route path="/movies/:movieId" element={<MovieDetails />} />
+          <Route path="/payment" element={<Payment />} />
         </Routes>
+
         <ToastContainer />
       </div>
     </Router>

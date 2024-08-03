@@ -10,7 +10,7 @@ const Seats = () => {
                 return <div className="selected seat"></div>
             })}
         </div>
-        <button className='ticket-btn'>Book Tickets</button>
+        <button className='ticket-btn' onClick={()=>window.location.href="/payment"}>Book Tickets</button>
       </div>
   )
 }
